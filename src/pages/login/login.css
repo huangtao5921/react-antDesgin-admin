@@ -1,0 +1,35 @@
+.login-container {
+  height: 100vh;
+  background: url('../../images/bg.jpg') no-repeat;
+  background-size: auto 100%;
+}
+
+.login-form {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 30px;
+  width: 380px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.login-form .sub-title {
+  padding: 24px 0;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.login-form-button {
+  margin: 0 auto;
+  display: block;
+}
+
+.login-icon {
+  color: rgba(0,0,0,0.25);
+}
+

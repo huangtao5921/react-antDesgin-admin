@@ -1,3 +1,72 @@
 @import '../node_modules/antd/dist/antd.css';  /* 引入antd样式 */
 
 /* 书写一些其他的公共样式 */
+.ant-layout {
+  height: 100vh;
+}
+
+/* 头部 */
+.ant-layout-header {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+.ant-layout-header .ant-dropdown-link {
+  padding-right: 20px;
+}
+
+.ant-layout-header .custom-img {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #f0f0f0;
+}
+
+/* 内容部分 */
+.layout-content {
+  overflow: auto;
+  border-radius: 4px;
+  min-width: 900px;
+}
+
+.layout-content {
+  padding: 15px;
+}
+
+.content-wrap {
+  padding: 15px;
+  background: #fff;
+}
+
+.content-wrap:hover {
+  box-shadow: 0 0 5px #ccc;
+}
+
+/* 侧边栏 */
+.ant-layout-sider .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.ant-layout-sider .logo-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.ant-layout-sider  .name {
+  padding-left: 10px;
+}
+
+.ant-layout-sider .ant-menu-item {
+  margin-top: 0;
+}
+
+

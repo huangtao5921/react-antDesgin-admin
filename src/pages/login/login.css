@@ -1,7 +1,6 @@
 .login-container {
   height: 100vh;
   background: url('../../images/bg.jpg') no-repeat;
-  background-size: auto 100%;
 }
 
 .login-form {

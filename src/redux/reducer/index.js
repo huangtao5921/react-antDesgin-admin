@@ -1,7 +1,7 @@
 import { type } from '../action';
 
 const initialState = {
-  menuName: '首页'
+  menuName: ['首页']
 };
 
 export default (state = initialState , action) => {

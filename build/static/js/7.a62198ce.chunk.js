@@ -1,0 +1,2 @@
+(window["webpackJsonpreact-antdesign-admin"]=window["webpackJsonpreact-antdesign-admin"]||[]).push([[7],{374:function(n,e,t){"use strict";t.r(e);var a=t(29),c=t(30),i=t(34),r=t(31),u=t(35),o=t(0),s=t.n(o),d=function(n){function e(){return Object(a.a)(this,e),Object(i.a)(this,Object(r.a)(e).apply(this,arguments))}return Object(u.a)(e,n),Object(c.a)(e,[{key:"render",value:function(){return s.a.createElement("div",null,"404")}}]),e}(s.a.Component);e.default=d}}]);
+//# sourceMappingURL=7.a62198ce.chunk.js.map

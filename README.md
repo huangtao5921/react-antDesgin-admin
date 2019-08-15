@@ -1,3 +1,3 @@
 运行项目
-$ yarn 
+$ yarn
 $ yarn start

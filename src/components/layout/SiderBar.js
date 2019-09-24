@@ -11,15 +11,14 @@ const { SubMenu } = Menu;
 class SiderBar extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      collapsed: false,
+      menuList: [],
+      defaultOpenKeys: [],       // 默认展开
+      defaultSelectedKeys: ['/'],   // 默认选中
+    };
     SiderBar.that = this;
   }
-
-  state = {
-    collapsed: false,
-    menuList: [],
-    defaultOpenKeys: [],       // 默认展开
-    defaultSelectedKeys: ['/'],   // 默认选中
-  };
 
   componentWillMount() {
     this.handleDefaultSelect();

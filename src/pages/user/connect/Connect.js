@@ -15,10 +15,6 @@ class Connect extends React.Component {
     );
   }
 
-  componentDidMount() {
-    console.log("Connect渲染完毕")
-  }
-
 }
 
 export default Connect

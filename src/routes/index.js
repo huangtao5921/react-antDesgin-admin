@@ -1,13 +1,13 @@
 import React, { lazy, Suspense } from 'react';
 import {Layout} from "antd";
 import { Route, Switch, Redirect } from 'react-router-dom';
-import SiderBar from "../components/layout/SiderBar";
-import HeaderBar from "../components/layout/HeaderBar";
-const Home = lazy(() => import('../pages/home/Home'));
-const Connect = lazy(() => import('../pages/user/connect/Connect'));
-const List = lazy(() => import('../pages/user/list/List'));
-const Rich = lazy(() => import('../pages/tool/rich/Rich'));
-const NotFind = lazy(() => import('../pages/notFind/NotFind'));
+const SiderBar = lazy(() => import(/* webpackChunkName: "layout" */ '../components/layout/SiderBar'));
+const HeaderBar = lazy(() => import(/* webpackChunkName: "layout" */ '../components/layout/HeaderBar'));
+const Home = lazy(() => import(/* webpackChunkName: "home" */ '../pages/home/Home'));
+const Connect = lazy(() => import(/* webpackChunkName: "connect" */ '../pages/user/connect/Connect'));
+const List = lazy(() => import(/* webpackChunkName: "userList" */ '../pages/user/list/List'));
+const Rich = lazy(() => import(/* webpackChunkName: "rich" */ '../pages/tool/rich/Rich'));
+const NotFind = lazy(() => import(/* webpackChunkName: "notFind" */ '../pages/notFind/NotFind'));
 
 class Index extends React.Component {
 
